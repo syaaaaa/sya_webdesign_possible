@@ -1,0 +1,294 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family:'brandon';
+	src: url('./asset/font/Brandon_bld.otf') format('truetype');
+	font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+	font-family:'brandon';
+	src: url('./asset/font/Brandon_reg.otf') format('truetype');
+	font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+	font-family:'brandon';
+	src: url('./asset/font/Brandon_reg_it.otf') format('truetype');
+	font-weight: 500;
+  font-style: italic;
+}
+
+html {
+  background-color: white;
+  color: #111;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "brandon";
+  line-height: 1.375;
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* colors for tags */
+.color-mockup { color: green;}
+.color-mockup { color: blue;}
+
+.container {
+	background: white;
+  padding: 25px 25px 24px 24px;
+}
+
+.header {
+}
+
+.header-logo {
+	width: 100%;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.header-menu {
+	width: 100%;
+	margin: auto;
+}
+
+.header-menu-item {
+	width: 30%;
+	font-weight: bold;
+	display: inline-block;
+	margin: auto;
+	padding: 5px 5px;
+	text-align: center;
+
+}
+
+.header-menu-item a {
+	color: #2B3283;
+	text-decoration: none;
+}
+
+.header-menu-item.active a {
+	color: #FEE000;
+
+}
+
+.intro {
+}
+
+.intro-title {
+	color: #2B3283;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	margin: 25px;
+}
+
+.intro-content {
+	color: #2B3283;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	margin: 13px;
+	line-height: 150%;
+}
+
+.intro-cato {
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.intro-cato-item {
+	text-align: center;
+	font-size: 600;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin: 5px;
+}
+
+.intro-cato-item a {
+	text-decoration: none;
+}
+
+.intro-cato-item.mockup-color {
+	display: inline-block;
+	width: 100%;
+}
+
+.intro-cato-item.animations-color {
+	display: inline-block;
+}
+
+.intro-cato-item.handdrawns-color {
+	display: inline-block;
+}
+
+.intro-cato-item.watercolor-color {
+	display: inline-block;
+	width: 100%;
+}
+
+.intro-cato-item.artwork2d-color{
+	display: inline-block;
+}
+
+.intro-cato-item.artwork3d-color {
+	display: inline-block;
+}
+
+.intro-cato-item.painting-color {
+	display: inline-block;
+	width: 100%;
+}
+
+.intro-cato-item.animations-color a {
+	color: #ED1F24;
+}
+
+.intro-cato-item.handdrawns-color a {
+	color: #3A6E35;
+}
+
+.intro-cato-item.watercolor-color a {
+	color: #2D3079;
+}
+
+.intro-cato-item.artwork2d-color a {
+	color: #007D49;
+}
+
+.intro-cato-item.artwork3d-color a {
+	color: #E55325;
+}
+
+.intro-cato-item.painting-color a {
+	color: #3E2723;
+}
+
+.feature {
+
+}
+
+.feature-item {
+	text-align: center;
+}
+
+.feature-item-image {
+ text-align: center;
+}
+
+.feature-item-image-block {
+
+}
+
+.feature-item-image-block .feature-item-image-block-tag {
+	width: 100%;
+	height: 100%;
+}
+
+.feature-item-image-block .feature-item-image-block-title {
+	margin: -40px;
+	position: absolute;
+	width: 100%;
+	color:;
+	text-align: center;
+}
+
+.feature-item-cato {
+	margin: 10px 0 20px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.feature-item-cato a{
+	text-decoration: none;
+}
+
+.feature-item-cato .feature-item-cato-menu {
+	color: #2D3079;
+}
+
+.feature-item-title {
+	margin: 20px 0 25px 0;
+	font-weight: bold;
+	color: #160E3A;
+}
+
+
+
+
+
+
+/*
+.intro-cato-item:nth-child(1) a {
+	color:;
+}
+.intro-cato-item:nth-child(2) a {
+	color:;
+}
+.intro-cato-item:nth-child(3) a {
+	color:;
+}
+
+
+
+.header-menu-item:last-child {
+  padding-right:;
+}
+
+.content h3 {}
+.content span:first-child
+*/
